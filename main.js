@@ -1,11 +1,11 @@
 //Saber en que año naciste
 
 
-var año = prompt("¿En que año naciste?"); //lo que los usuarios introducen
+var anyo = prompt("¿En que año naciste?"); //lo que los usuarios introducen
 var mes = prompt("¿En que mes naciste?");
 var dia = prompt("¿En que dia naciste?");
 
-var fechaCompleta = (año + (",") + mes  + (",") + dia);
+var fechaCompleta = (anyo + '/' + mes  + '/' + dia);
 
 //objeto dias
 const days = {
